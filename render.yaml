@@ -1,0 +1,8 @@
+services:
+- type: web
+  name: wipos-backend
+  env: python
+  region: singapore
+  plan: free
+  buildCommand: "pip install -r requirements.txt"
+  startCommand: "gunicorn mywebsite.wsgi:application --bind 0.0.0.0:10000"

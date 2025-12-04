@@ -1,0 +1,11 @@
+django==4.2.*
+djangorestframework
+pymysql
+django-filter
+numpy
+pandas
+scikit-learn
+seaborn
+matplotlib
+whitenoise
+gunicorn
